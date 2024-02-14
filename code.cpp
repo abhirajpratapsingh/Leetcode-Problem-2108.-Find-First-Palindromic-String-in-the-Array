@@ -17,7 +17,7 @@ public:
     {
         for(int i=0;i<words.size();i++)
         {
-            if(palin(words[i]))
+            if(isPalin(words[i]))
                 return words[i];
         }
         return "";
